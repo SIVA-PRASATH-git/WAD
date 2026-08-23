@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 70%;
+    height:70vh;
+    margin:120px auto 0;
+    padding:30px;
+    background:rgba(255,255,255,0.4);
+    border-radius: 15px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+}
+
+nav a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+main::-webkit-scrollbar{
+    width: 8px;
+    display: none;
+}
+main::-webkit-scrollbar-track{
+    background: transparent;
+}
+main::-webkit-scrollbar-thumb{
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+}
+main h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+main p{
+    line-height: 1.6;
+}
+#nerd{  
+    object-fit: cover;
+    display: block;
+    height: 400px;;
+    width: 400px;
+    margin: 0 auto 20px;
+}
+#logo{
+    height: 150px;
+    margin: 0 auto 20px;
+    display: block;
+}
+#stonk{
+    height: 250px;
+    display: block;
+    margin: 0 auto 20px;
+}
